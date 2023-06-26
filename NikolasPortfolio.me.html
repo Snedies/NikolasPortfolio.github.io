@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Portfoli Page</title>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <!-----------------------------------MAIN PAGE     -------------------------------------------------->
+    
+    <section id="home">
+    <div class="wrapper">
+        
+        <div class="topbars">
+            <header>
+          
+            <input type="checkbox" id="nav_ch" hidden> 
+            </header>
+            <nav>
+              <!--
+                <div class="logo">
+                    <img src="logo.png" alt="">\
+                </div>
+                -->
+      
+          <ul id="rightmenu">
+            <li><a href="#home">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Home
+              </a></li>
+                 <li><a href="#aboutme">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        About </a></li>
+                    <li><a href="#contact">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Contact
+                    </a></li>
+                    <i  class="fa-sharp fa-solid fa-circle-xmark" style="color: #ffffff;" onclick="closem()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openm()" style="color: #ffffff;"></i>
+            </div>
+            </nav>
+       
+
+        <a href="#aboutme"> 
+            <div class="arrowdown">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div></a>
+
+
+        
+      
+        <div class="conthead">
+            <p>Web Developer  <br> PL/ENG
+               <h1>Hey  <br> I'm <span> Miko</span>łaj <br> <span>Mate</span>rek</h1> <br>
+    </div>
+        </section>
+    
+   
+        
+    
+          
+
+      
+   
+    
+<!-----------------------------------------About me page------------------------------------------------------------->
+
+
+
+    <section id="aboutme">
+      <div id="aboutme">
+        <div class="containerr">
+        <div class="box">
+            <span></span>
+            <div class="contentt">
+              <h1>ABOUT ME</h1>
+              <p>  IV High School in Kielce <br>(Mathematical-Physical-IT profile) <br> </p>
+              <p>Catholic University of Lublin <br>  (IT profile)</p>
+              <p>I'm a hardworking student  with a passion for web design and development.  <br>
+                <br> I'm also an artistic soul, so I'm full of creative ideas. <br> I am a friendly, approachable, and open-minded person, ready to collaborate with you  :)
+</div>     
+</div>
+        
+        <div class="box">
+            <span></span>
+        <div class="contentt">
+            <h1>SKILLS</h1>
+            <p>HTML </p>
+            <p>CSS</p>
+            <p>Java Script</p>
+            <p>C++</p>
+            <p>C#</p>
+            <p>Sony Vegas(Video Editor)</p>
+            <p>Adobe Photoshop (Image Editor)</p>
+            <p>Blender (Animation Editor)</p>
+            <p>CISCO Packet Tracer</p>
+            <p>GIMP</p>
+</div>
+      </div>
+       
+      <div class="box">
+        <span></span>
+        <div class="contentt">
+            <h1>GUARANTEED</h1>
+            <p> High quality </p> <br>
+              <p>  Constant contact </p><br>
+              <p> Student prices</p> <br>
+              <p> Responsive websites </p><br>
+              <p> Quick repsonse </p>
+             
+
+
+
+            </p>
+        </div>
+    </div>
+    
+    
+      </div>
+      </div>    
+    </div>
+                  
+                    
+                </div>
+    </section>
+</section>
+      <!-------------------------------Hire Me Page ----------------------------------------------------------------->
+<section id="contact">
+    <div class="contact">
+    <div class="contact-formation">
+    <h1>Let's <span>talk</span></h1>
+    <p><i class="fa-regular fa-envelope"></i> email: mikomat.business@gmail.com</p>
+    <p><i class="fa-solid fa-phone"></i> phone number: +48 608 855 311</p>
+    <div class="social_icons">
+        <a href="https://www.instagram.com/snediies/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100015692372635"><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fal fa-mailbox"></i>></i></a>
+    </div>
+    <form action="https://formspree.io/f/xleyrdyj" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" cols="35" rows="15" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+    </form>
+</div>
+
+<div class="contact-picture">
+    <img src="third_page_card.JPG" alt="">
+</div>
+</div>
+<div class="copyright">
+<h1>copyright ©Nikolas</h1>
+</div>
+        </section>
+        <!-------------------------------------------------SCRIPTS---------------------------------------------------------------------------------->
+        <script>
+            var rightmenu = document.getElementById("rightmenu");
+            function openm(){
+                 rightmenu.style.right="0";
+            }
+            function closem(){
+                 rightmenu.style.right="-200px";
+            }
+        </script>
+    
+</body>
+</html>
